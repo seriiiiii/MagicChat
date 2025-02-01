@@ -31,7 +31,7 @@ function sendMessage(message) {
     botBusy = true;
     hideCenterLogoAndBoxContainer();
     displayUserMessage(message);
-    displayBotMessage('모르겠습니다!', () => {
+    displayBotMessage('Test페이지 입니다.', () => {
         botBusy = false;
     });
 }
